@@ -54,10 +54,10 @@ if [ "$user_input" -eq 1 ] ; then
 	archive_choice "heart_rate_log.log" "heart_rate.log" "heart_data_archive" "heart_rate"
 	
 elif [ "$user_input" -eq 2 ] ; then
-	archive_log "temperature_log.log" "temperature.log" "temperature_data_archive" "temperature"
+	archive_choice "temperature_log.log" "temperature.log" "temperature_data_archive" "temperature"
 
 elif [ "$user_input" -eq 3 ] ; then
-	archive_log "water_usage_log.log" "water_usage.log" "water_data_archive" "water_usage"
+	archive_choice "water_usage_log.log" "water_usage.log" "water_data_archive" "water_usage"
 fi
 
 
