@@ -18,7 +18,7 @@ while true; do
 	fi
 done
 
-ACTIVE_LOG_DIRECTORY="/hospital_data/active_logs"
+ACTIVE_LOG_DIRECTORY="hospital_data/active_logs"
 
 # function to archive selected folder
 
@@ -31,18 +31,21 @@ function archive_chioce() {
 	local active_log_path="${ACTIVE_LOG_DIRECTORY}/${log_file}"
 
 	if [ ! -f "${active_log_path}" ]; then
-		echo "WARNING: '${active_log_path}' is missing"
-		echo "Creating $'{active_log_path}'"
+		echo "WARNING: Active log file '${active_log_path}' is missing"
+		echo "Creating new empty file at '${active_log_path}'"
 		mkdir -p "$(dirname "${active_log_path}")" #strips the file off the directory name
-		echo "Creating empty log file in '${active_log_path}'"
 		touch "${active_log_path}"
+  		echo "Creating empty log file in '${active_log_path}'"
+		
 	fi
-	#Generate timestamp
+	# To generating timestamp
  	local timestamp=$(date +"%Y-%m-%d_%H:%M:%S")
 	
 	#Making archived_file_path
 	local archived_file_path="${archive_dir}/${archive_file}_${timestamp}.log"
 	echo "Archiving '${log_file}..."
+
+ 	# Moving the file
 	mv "${active_log_path}" "${archived_file_path}"
 	
 	#creating new empty log file for continued monitoring
