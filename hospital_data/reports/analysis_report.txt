@@ -1,0 +1,50 @@
+----- Analysis Report -----
+Log File Analyzed: Heart Rate
+File: hospital_data/archived_logs/heart_data_archive/heart_rate_2025-06-05_08-37-00.log
+Analysis Time: 2025-06-05 09:02:38
+
+Device Count:
+
+First timestamp: Last timestamp: 
+----------------------------
+
+----- Analysis Report -----
+Log File Analyzed: Temperature
+File: hospital_data/archived_logs/temperature_data_archive/temperature_2025-06-05_08-37-07.log
+Analysis Time: 2025-06-05 09:07:55
+
+Device Count:
+
+First timestamp: head -n 1 hospital_data/archived_logs/temperature_data_archive/temperature_2025-06-05_08-37-07.log | cut -d '|' -f1Last timestamp:  tail -n 1 hospital_data/archived_logs/temperature_data_archive/temperature_2025-06-05_08-37-07.log | cut -d '|' -f1
+----------------------------
+
+----- Analysis Report -----
+Log File Analyzed: Heart Rate
+File: hospital_data/archived_logs/heart_data_archive/heart_rate_2025-06-05_08-37-00.log
+Analysis Time: 2025-06-05 09:11:19
+
+Device Count:
+
+First timestamp: Last timestamp: 
+----------------------------
+
+----- Analysis Report -----
+Log File Analyzed: Temperature
+File: hospital_data/archived_logs/temperature_data_archive/temperature_2025-06-05_08-37-07.log
+Analysis Time: 2025-06-05 09:11:26
+
+Device Count:
+
+First timestamp: Last timestamp: 
+----------------------------
+
+----- Analysis Report -----
+Log File Analyzed: Water Usage
+File: hospital_data/archived_logs/water_usage_data_archive/water_usage_2025-06-05_08-37-10.log
+Analysis Time: 2025-06-05 09:11:33
+
+Device Count:
+
+First timestamp: Last timestamp: 
+----------------------------
+
