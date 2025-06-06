@@ -53,7 +53,7 @@ mkdir -p "$REPORT_DIR"
     echo "File: $LATEST_FILE"
     echo "Analysis Time: $(date '+%Y-%m-%d %H:%M:%S')"
     echo ""
-    echo "Device Count:"
+    echo "Device Count: "
     awk -F '|' '{print $2}' "$LATEST_FILE" | sort | uniq -c
     echo ""
     echo -n "First timestamp: "
