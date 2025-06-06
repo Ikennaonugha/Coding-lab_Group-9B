@@ -1,0 +1,33 @@
+----- Analysis Report -----
+Log File Analyzed: Heart Rate
+File: hospital_data/archived_logs/heart_data_archive/heart_rate_2025-06-06_12-32-36.log
+Analysis Time: 2025-06-06 13:04:38
+
+Device Count: 
+   5788 
+
+First timestamp: 2025-06-02 11:55:20 HeartRate_Monitor_A 62
+Last timestamp: 2025-06-02 12:43:36 HeartRate_Monitor_B 96
+
+----------------------------
+
+----- Analysis Report -----
+Log File Analyzed: Temperature
+File: hospital_data/archived_logs/temperature_data_archive/temperature_2025-06-06_13-00-13.log
+Analysis Time: 2025-06-06 13:04:43
+
+Device Count: 
+
+First timestamp: Last timestamp: 
+----------------------------
+
+----- Analysis Report -----
+Log File Analyzed: Water Usage
+File: hospital_data/archived_logs/water_usage_data_archive/water_usage_2025-06-06_13-00-25.log
+Analysis Time: 2025-06-06 13:04:47
+
+Device Count: 
+
+First timestamp: Last timestamp: 
+----------------------------
+
