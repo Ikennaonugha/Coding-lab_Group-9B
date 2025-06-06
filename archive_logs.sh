@@ -62,13 +62,13 @@ archive_choice() {
 }
 
 if [ "$user_input" -eq 1 ] ; then
-	archive_choice "heart_rate.log" "heart_data_archive" "heart_rate"
+	archive_choice "heart_rate_log.log" "heart_data_archive" "heart_rate"
 	
 elif [ "$user_input" -eq 2 ] ; then
-	archive_choice "temperature.log" "temperature_data_archive" "temperature"
+	archive_choice "temperature_log.log" "temperature_data_archive" "temperature"
 
 elif [ "$user_input" -eq 3 ] ; then
-	archive_choice "water_usage.log" "water_usage_data_archive" "water_usage"
+	archive_choice "water_usage_log.log" "water_usage_data_archive" "water_usage"
 fi
 
 
