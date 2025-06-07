@@ -1,6 +1,6 @@
 Automated Log Management System.
 This Formative Project presents a system for collecting, archiving, and analyzing real-time patient health metrics and resource usage data within a simulated hospital environment. It demonstrates proficiency in interactive shell scripting, log file processing and Linux tools.
-Members of the Projects are Daniel Gakumba Ntwali, Robert Niyonkuru
+Members of the Projects are Daniel Gakumba Ntwali, Robert Niyonkuru, Ikenna Onugha, Teniola Olaleye, Ariane Itetero and Luigi Ntore 
 Project Objective
 Key objectives include:
 
